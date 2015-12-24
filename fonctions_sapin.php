@@ -75,7 +75,7 @@
 		{
 			for ($j = 0; $j< $vide-$epaisseur; $j++)
 				echo "&#8194";							//espace pris en compte (de même dimension que l'étoile)
-			for ($j = 0; $j<$epaisseur*2; $j++)
+			for ($j = 0; $j<$epaisseur*2+1; $j++)
 				echo "#";
 			echo "<br/>";
 		}
